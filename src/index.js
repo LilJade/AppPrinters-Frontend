@@ -9,6 +9,7 @@ import { LoginPage } from './components/loginPage/loginPage';
 import { PerfilEmpleado } from './components/perfilEmpleado/perfilEmpleado';
 import { Navbar } from './components/navbar/navbar';
 import { RegisterEmpleado } from './components/registerEmpleado/registerEmpleado';
+import ListaEmpleados from './components/listaEmpleados/listaEmpleados';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +20,7 @@ root.render(
       <Route path="/login" element={<LoginPage />} />
       <Route path="/registerEmpleado" element={<RegisterEmpleado />} />
       <Route path="/perfilEmpleado" element={<PerfilEmpleado />} />
+      <Route path="/listaEmpleados" element={<ListaEmpleados />} />
 
       <Route path="/*" element={<Navigate to="/" />} />
     </Routes>

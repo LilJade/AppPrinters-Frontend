@@ -4,3 +4,4 @@ export * from './components/loginPage/loginPage';
 export * from './components/registerEmpleado/registerEmpleado';
 export * from './components/perfilEmpleado/perfilEmpleado';
 export * from './components/createPrint/createPrint';
+
